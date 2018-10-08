@@ -25,10 +25,10 @@ function removeFirstKitten() {
   return kittens.slice(1, kittens.length);
 }
 
-function appendKitten(arr, name) {
-  arr.concat(name);
+function appendKitten(name) {
+  kittens.concat(name);
 }
 
-function prependKitten(arr, name) {
+function prependKitten(name) {
   name.concat(arr);
 }
